@@ -155,22 +155,9 @@ form{
 	background-color: white;
 	padding: 20px;
 	height: 400px;
-	width: 400px;
 	margin-top: 20px;
 	border-radius: 5px;
 	box-shadow: 0 5px rgb(0,0,0, 0.6);
-}
-
-
-footer{
-	text-align: center;
-	color: white;
-	bottom: 0;
-	width: 100%;
-	position: absolute;
-	left: 0;
-	right: 0;
-
 }
 
 
@@ -200,6 +187,17 @@ footer{
 		margin: 0;
 
 
+	}
+	.dev{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+	}
+	
+	form{
+		margin-bottom: 20px;
 	}
 
 }
