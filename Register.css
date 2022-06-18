@@ -185,16 +185,6 @@ form{
 		width: 100%;
 		justify-content: center;
 		text-align: center;
-		margin: 0;
-
-
-	}
-	.dev{
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-		justify-content: center;
-		text-align: center;
 	}
 	
 	form{
