@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Poppins:wght@400;500;600;700&display=swap%27);
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'poppins', sans-serif;
+	font-size: 16px;
+	background-image: url("./bg-intro-desktop.png");
+	background-color: hsl(0, 100%, 74%);
+}
+
+
+.logo{
+	font-size: x-large;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.navbar .container{
+	display: flex;
+	height: 60px;
+	justify-content: space-between;
+	background-color: crimson;
+	color: white;
+	align-items: center;
+
+}
+
+.navbar ul{
+	display: flex;
+	list-style: none;
+	color: white;
+	margin-right: 10px;
+}
+
+.navbar li{
+	margin-left: 10px;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+.coding .container{
+	display: flex;
+	height: 600px;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	/*padding: 200px 250px;*/
+
+}
+
+/*.content{
+	padding: 50px;
+
+}*/
+
+.btn1{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 0;
+	background-color: hsl(248, 32%, 49%);
+	color: white;
+	box-shadow: 0 5px rgb(0,0,0, 0.6);
+	cursor: pointer;
+
+}
+
+.btn2{
+	width: 100%;
+	padding: 10px;
+	border: 0;
+	border-radius: 5px;
+	background-color: hsl(154, 59%, 51%);
+	color: white;
+	font-weight: bold;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+
+
+.dev{
+	color: white;
+	font-size: 20px;
+	padding: 50px;
+	width: 50%;
+
+
+}
+
+.dev h1{
+	font-weight: 700;
+	margin-bottom: 20px;
+	width: 100%;
+	line-height: 1.2;
+
+}
+
+.dev p{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+input{
+	width: 100%;
+	padding: 15px;
+	margin: 15px 0;
+	border-radius: 5px;
+	border: thin solid gray;
+	display: block;
+	outline: none;
+	
+}
+
+
+
+input:invalid:focus{
+	background-image: url("icon-error.svg");
+	background-repeat: no-repeat;
+	background-position-x: 98%;
+	background-position-y:50%;
+	/*background-size: 20px;*/
+	/*background-position: right;*/
+	border: thin solid red;
+
+}
+
+
+form p{
+	font-size: 10px;
+	font-weight: 400;
+	text-align: center;
+}
+
+form a{
+	color: red;
+	text-decoration: none;
+}
+
+form{
+	background-color: white;
+	padding: 20px;
+	height: 400px;
+	width: 400px;
+	margin-top: 20px;
+	border-radius: 5px;
+	box-shadow: 0 5px rgb(0,0,0, 0.6);
+}
+
+
+footer{
+	text-align: center;
+	color: white;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+
+}
+
+
+
+
+
+@media (max-width: 375px){
+
+	.coding .container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 80%;
+		padding: 10px;
+	}
+
+	body{
+		background-image: url("./bg-intro-mobile.png");
+	}
+
+	.dev{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+		margin: 0;
+
+
+	}
+
+}
